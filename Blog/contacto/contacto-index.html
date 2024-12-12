@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">DOC TOPS</h1>
+        <ul class="nav-links">
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="restaurantes.html">Restaurantes</a></li>
+            <li><a href="contacto.html" class="active">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section class="contact-section">
+        <div class="contact-overlay">
+            <h2>Contacto</h2>
+            <p class="about-us">
+                Somos una plataforma dedicada a ofrecerte las mejores recomendaciones gastronómicas.
+                ¡Contáctanos para más información o para compartir tu experiencia!
+            </p>
+        </div>
+        <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="Tu correo electrónico" required>
+            </div>
+            <div class="form-group">
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion" placeholder="Tu dirección" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 DOC TOPS. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
